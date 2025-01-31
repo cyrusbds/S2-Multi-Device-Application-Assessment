@@ -338,7 +338,16 @@ input{
 
 /* Laptop Device */
 
-@media (max-width: 1024px){
+@media (max-width: 768px){
+    nav ul{
+        font-size: 1.1rem;
+    }
+    .nav-logo{
+        width: 8rem;
+    }
+    .hero-content h1{
+        font-size: 6.5rem;
+    }
     .anime1{
         display: none;
     }
